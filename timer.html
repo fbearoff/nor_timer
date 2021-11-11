@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Stopwatch</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Session</h1>
+
+      <div id="time">00:00:00</div>
+
+      <div class="btns-container">
+        <button id="start_btn" onclick="start()">START</button>
+        <button id="pause_btn" onclick="pause()">PAUSE</button>
+        <button id="reset_btn" onclick="reset()">RESET</button>
+      </div>
+    </div>
+
+    <div class="container_A">
+      <h1>Object A</h1>
+
+      <div id="time_A">00:00:00</div>
+
+      <div class="btns-container_A">
+        <button id="start_btn_A" onclick="start_A()">START</button>
+        <button id="pause_btn_A" onclick="pause_A()">PAUSE</button>
+        <button id="reset_btn_A" onclick="reset_A()">RESET</button>
+      </div>
+    </div>
+    <div class="container_B">
+      <h1>Object B</h1>
+
+      <div id="time_B">00:00:00</div>
+
+      <div class="btns-container_B">
+        <button id="start_btn_B" onclick="start_B()">START</button>
+        <button id="pause_btn_B" onclick="pause_B()">PAUSE</button>
+        <button id="reset_btn_B" onclick="reset_B()">RESET</button>
+      </div>
+    </div>
+
+    <div class="container_object">
+      <h1>Object Exploration Sum</h1>
+
+      <div id="object_timer">00</div>
+
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

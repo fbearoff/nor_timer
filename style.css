@@ -1,0 +1,92 @@
+body {
+  background: gainsboro;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+}
+
+#time {
+  font-size: 50px;
+}
+
+.btns-container {
+  margin: 10px 0;
+}
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  filter: grayscale(0.5);
+}
+button:focus {
+  outline: none;
+}
+
+#start_btn {
+  background: green;
+}
+#pause_btn {
+  background: blue;
+  display: none;
+}
+#reset_btn {
+  background: red;
+  display: none;
+}
+
+/* Object A */
+#start_btn_A {
+  background: green;
+}
+#pause_btn_A {
+  background: blue;
+  display: none;
+}
+#reset_btn_A {
+  background: red;
+  display: none;
+}
+.container_A {
+  text-align: center;
+}
+#time_A {
+  font-size: 50px;
+}
+.btns-container_A {
+  margin: 10px 0;
+}
+/* Object B */
+#start_btn_B {
+  background: green;
+}
+#pause_btn_B {
+  background: blue;
+  display: none;
+}
+#reset_btn_B {
+  background: red;
+  display: none;
+}
+.container_B {
+  text-align: center;
+}
+#time_B {
+  font-size: 50px;
+}
+.btns-container_B {
+  margin: 10px 0;
+}
+/* object sum */
+.container_object {
+  text-align: center;
+}
+#object_timer {
+  font-size: 50px;
+}
